@@ -15,7 +15,7 @@ const Weather = () => {
   const [dateToday, setDateToday] = useState(date);
 
   const api = {
-    url: 'http://api.openweathermap.org/data/2.5/',
+    url: 'https://api.openweathermap.org/data/2.5/',
     key: '621b90edcd01546726b7b5037e2a5709',
   };
   const iconURL = 'http://openweathermap.org/img/w/';
